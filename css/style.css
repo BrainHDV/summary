@@ -1,0 +1,25 @@
+@import "vendor/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@700&display=swap");
+@import "vendor/vars.css";
+@import "components/container.css";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.4;
+  color: var(--secondary-text);
+  background-color: var(--page-bg);
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.summary-bg {
+  background-color: #fff;
+}
