@@ -1,0 +1,35 @@
+.sidebar {
+  width: 40rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-right: 6rem;
+  color: var(--primary-text);
+}
+
+.sidebar__item {
+  position: relative;
+  padding-bottom: 2rem;
+
+  margin: 2.5rem 0 2.5rem 6rem;
+}
+
+.sidebar__item:not(:last-child)::after {
+  content: "";
+
+  width: 30rem;
+  height: 2px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+
+  background-color: var(--primary-text);
+}
+
+.sidebar-title {
+  margin-bottom: 3.5rem;
+}
