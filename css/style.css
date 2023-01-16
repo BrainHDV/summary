@@ -9,6 +9,7 @@
 @import "components/skills.css";
 @import "components/title-text.css";
 @import "components/summary.css";
+@import "components/experience.css";
 
 html {
   font-size: 62.5%;
