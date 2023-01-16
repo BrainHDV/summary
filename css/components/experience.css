@@ -1,0 +1,38 @@
+.experience {
+  padding-top: 5rem;
+}
+
+.experience__title {
+  margin-bottom: 3.5rem;
+}
+
+.experience__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.experience__item:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.experience__item-title {
+  font-size: 2.3rem;
+  letter-spacing: 0.3rem;
+}
+
+.experience__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 0.6rem;
+}
+
+.experience__link {
+  color: inherit;
+}
+
+.experience_technologies-title {
+  font-weight: 700;
+}
