@@ -4,6 +4,7 @@
 @import "components/container.css";
 @import "components/education.css";
 @import "components/header.css";
+@import "components/header-burger.css";
 @import "components/nav.css";
 @import "components/sidebar.css";
 @import "components/skills.css";
@@ -52,6 +53,7 @@ body {
     margin-top: 11.5rem;
   }
 }
+
 @media all and (max-width: 768px) {
   .main {
     padding: 0 1.5rem 2rem;
