@@ -36,3 +36,18 @@
 .experience_technologies-title {
   font-weight: 700;
 }
+
+@media all and (max-width: 768px) {
+  .experience__title {
+    margin-bottom: 2rem;
+  }
+
+  .experience__item-title {
+    font-size: calc(1.7rem + (0.6 + 0.6 * 0.7) * ((100vw - 32rem) / 120));
+  }
+
+  .experience__list {
+    line-height: 1.2;
+    font-size: calc(1.5rem + (0.3 + 0.3 * 0.7) * ((100vw - 32rem) / 120));
+  }
+}
