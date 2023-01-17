@@ -39,9 +39,8 @@
   object-fit: cover;
   object-position: center;
 
-  border: 0.7rem solid var(--primary-text);
+  border: 0.7rem solid white;
   border-radius: 50%;
-  background-position: left;
 
   position: absolute;
 
@@ -49,6 +48,19 @@
   left: 2.5rem;
 
   z-index: 10;
+
+  animation: animate-border 4s infinite alternate-reverse linear;
+}
+
+@keyframes animate-border {
+  30% {
+    border-radius: 32% 68% 61% 39% / 35% 50% 50% 65%;
+    animation-timing-function: linear;
+  }
+  60% {
+    border-radius: 64% 36% 28% 72% / 59% 47% 53% 41%;
+    animation-timing-function: linear;
+  }
 }
 
 .person-name {
