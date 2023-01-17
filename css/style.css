@@ -42,3 +42,22 @@ body {
 .main {
   padding: 0 5rem 5rem;
 }
+
+.custom-gap {
+  gap: 1.2rem;
+}
+
+@media all and (max-width: 1120px) {
+  .content {
+    margin-top: 11.5rem;
+  }
+}
+@media all and (max-width: 768px) {
+  .main {
+    padding: 0 1.5rem 2rem;
+  }
+
+  .content {
+    margin-top: 8.5rem;
+  }
+}
