@@ -66,3 +66,56 @@
   letter-spacing: 0.8rem;
   color: var(--primary-text);
 }
+
+@media all and (max-width: 1120px) {
+  .header::before {
+    top: 12rem;
+  }
+
+  .header__content {
+    align-items: center;
+    padding-top: 22rem;
+  }
+
+  .header__avatar {
+    width: 23rem;
+    height: 23rem;
+
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .person-name {
+    font-size: 4.8rem;
+  }
+
+  .person-position {
+    font-size: 1.7rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .header::before {
+    height: 23rem;
+  }
+
+  .header__content {
+    padding-top: 20rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .header__avatar {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .person-name {
+    font-size: calc(3rem + (1.8 + 1.8 * 0.7) * ((100vw - 32rem) / 120));
+  }
+
+  .person-position {
+    font-size: calc(1.4rem + (0.3 + 0.3 * 0.7) * ((100vw - 32rem) / 120));
+    letter-spacing: 0.4rem;
+  }
+}
